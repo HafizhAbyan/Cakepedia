@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFE9F0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button and Title -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:src="@drawable/ic_arrow_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <TextView
+                android:layout_marginStart="16dp"
+                android:text="FAVORIT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Kue Favorit -->
+        <TextView
+            android:layout_marginTop="24dp"
+            android:text="Kue Favorit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Item Kue -->
+        <include layout="@layout/card_item"/>
+
+        <!-- Donat Favorit -->
+        <TextView
+            android:layout_marginTop="24dp"
+            android:text="Donat Favorit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Item Donat -->
+        <include layout="@layout/card_item"/>
+
+        <!-- Cookies Favorit -->
+        <TextView
+            android:layout_marginTop="24dp"
+            android:text="Cookies Favorit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Item Cookies -->
+        <include layout="@layout/card_item"/>
+
+        <!-- Add Button -->
+        <ImageButton
+            android:layout_gravity="end"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/ic_add"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+    </LinearLayout>
+</ScrollView>
