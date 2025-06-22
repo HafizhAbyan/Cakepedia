@@ -2,6 +2,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
-    <solid android:color="#997C70"/> <!-- Warna pink -->
+    <solid android:color="#FFB7CE"/> <!-- Warna pink -->
     <corners android:radius="24dp"/> <!-- Sudut melengkung -->
 </shape>
