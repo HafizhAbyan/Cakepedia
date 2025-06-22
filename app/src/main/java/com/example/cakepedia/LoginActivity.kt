@@ -93,25 +93,6 @@ class LoginActivity : AppCompatActivity() {
         // Pastikan DatabaseHelper Anda memiliki fungsi isUserExists seperti ini:
         // (Tambahkan ini ke dalam class DatabaseHelper di file DatabaseHelper.kt Anda)
         /*
-    fun isUserExists(username: String): Boolean {
-        val db = this.readableDatabase
-        val columns = arrayOf(KEY_ID)
-        val selection = "$KEY_USERNAME = ?"
-        val selectionArgs = arrayOf(username)
-        val cursor = db.query(
-            TABLE_USERS,
-            columns,
-            selection,
-            selectionArgs,
-            null,
-            null,
-            null
-        )
-        val count = cursor.count
-        cursor.close()
-        // db.close() // Hati-hati jika db masih akan digunakan oleh fungsi lain yang memanggil ini.
-                     // Untuk standalone check, sebaiknya ditutup.
-        return count > 0
     }
     */
     }
