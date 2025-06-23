@@ -74,7 +74,7 @@
                     <ImageView
                         android:layout_width="90dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/donat"
+                        android:src="@drawable/donat2"
                         android:scaleType="centerCrop"
                         android:contentDescription="Donat Ring" />
 
@@ -144,12 +144,15 @@
                     android:padding="8dp">
 
                     <ImageView
+                        android:id="@+id/navigation_kuecoklat"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/kue_coklat"
                         android:scaleType="centerCrop"
                         android:background="@drawable/circular_image_background"
-                        android:contentDescription="Kue Coklat" />
+                        android:contentDescription="Kue Coklat"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                     <TextView
                         android:layout_width="wrap_content"

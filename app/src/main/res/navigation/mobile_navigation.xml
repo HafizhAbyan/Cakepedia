@@ -27,7 +27,16 @@
         android:id="@+id/navigation_search"
         android:name="com.example.cakepedia.ui.search.searchFragment"
         android:label="@string/title_search"
-        tools:layout="@layout/fragment_search" />" />
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_kuecoklat"
+            app:destination="@id/navigation_kuecoklat" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_kuecoklat"
+        android:name="com.example.cakepedia.ui.recipe.kuecoklatFragment"
+        tools:layout="@layout/fragment_kuecoklat" />
 
 
 </navigation>
