@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESEP BLACK FOREST CAKE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Bahan-Bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahan - Bahan :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Card Bahan Cake -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="#FFD3E1"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"
+            android:text="Bahan Cake Cokelat (ukuran loyang 22–24 cm):\n• 6 butir telur\n• 150 gram gula pasir\n• 1 sdt SP (opsional, untuk mengembang)\n• 120 gram tepung terigu protein sedang\n• 35 gram cokelat bubuk\n• 1 sdt baking powder\n• 100 gram margarin, lelehkan\n• 50 gram dark cooking chocolate, lelehkan" />
+
+        <!-- Card Bahan Isian -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="#FFD3E1"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"
+            android:text="Bahan Isian &amp; Hiasan:\n• 300 ml whipped cream (sudah dikocok)\n• 100 gram ceri hitam kaleng (black cherry)\n• 100 gram dark chocolate serut untuk hiasan\n• Ceri merah untuk topping (opsional)\n• Simple syrup untuk membasahi cake" />
+
+        <!-- Cara Membuat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Membuat :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Buat Cake -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="#FFD3E1"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"
+            android:text="Buat Cake:\n• Kocok telur, gula, dan SP hingga mengembang.\n• Masukkan tepung, cokelat bubuk, dan baking powder, aduk rata.\n• Tambahkan margarin dan cokelat leleh, aduk balik.\n• Panggang dalam oven 170°C selama ±30–35 menit." />
+
+        <!-- Potong & Susun -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="#FFD3E1"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="Potong &amp; Susun:\n• Potong cake jadi 3 lapisan.\n• Basahi tiap lapisan dengan simple syrup.\n• Oles whipped cream dan beri ceri hitam di tiap lapisan." />
+
+    </LinearLayout>
+</ScrollView>
