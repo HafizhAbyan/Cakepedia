@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
-            android:text="Kue Coklat"
+            android:text="Kue Modern"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -63,8 +63,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/coklat_1"
-                        android:contentDescription="Chocolate Mud Cake " />
+                        android:src="@drawable/black_forest_cake"
+                        android:contentDescription="Black Forest Cake" />
 
                     <ImageView
                         android:layout_width="32dp"
@@ -82,7 +82,7 @@
                     android:layout_height="41dp"
                     android:gravity="center"
                     android:paddingTop="8dp"
-                    android:text="Chocolate Mud Cake "
+                    android:text="Black Forest Cake"
                     android:textColor="#000000"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -106,7 +106,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/coklat_2"
+                        android:src="@drawable/royal_cake"
                         android:contentDescription="Royal Fudge Cake" />
 
                     <ImageView
@@ -124,7 +124,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="8dp"
-                    android:text="Chocolate Fudge Cake"
+                    android:text="Royal Fudge Cake with Tobleron"
                     android:textColor="#000000"
                     android:textSize="14sp"
                     android:textStyle="bold"
@@ -150,7 +150,7 @@
                         android:layout_height="match_parent"
                         android:contentDescription="Classic Sansrival Cake"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/coklat_3" />
+                        android:src="@drawable/classic" />
 
                     <ImageView
                         android:layout_width="32dp"
@@ -168,7 +168,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:paddingTop="8dp"
-                    android:text="Chocolate Truffle Cake"
+                    android:text="CLASSIC SANSRIVAL"
                     android:textColor="#000000"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -192,7 +192,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/coklat_4"
+                        android:src="@drawable/cake_rainbow"
                         android:contentDescription="Customized Cake Rainbow" />
 
                     <ImageView
@@ -210,7 +210,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="8dp"
-                    android:text="Devil’s Food Cake"
+                    android:text="Customized Cake Rainbow"
                     android:textColor="#000000"
                     android:textSize="14sp"
                     android:textStyle="bold"
