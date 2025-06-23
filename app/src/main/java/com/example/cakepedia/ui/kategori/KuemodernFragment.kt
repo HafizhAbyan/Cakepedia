@@ -1,4 +1,4 @@
-package com.example.cakepedia.ui.recipe
+package com.example.cakepedia.ui.kategori
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

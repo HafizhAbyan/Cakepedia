@@ -39,9 +39,34 @@ class searchFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val img = view.findViewById<ImageView>(R.id.navigation_kuecoklat)
-        img.setOnClickListener {
+        val imgcoklat = view.findViewById<ImageView>(R.id.navigation_kuecoklat)
+        imgcoklat.setOnClickListener {
             findNavController().navigate(R.id.action_navigation_search_to_navigation_kuecoklat)
+        }
+
+        val imglebaran = view.findViewById<ImageView>(R.id.navigation_kuelebaran)
+        imglebaran.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_search_to_navigation_kuelebaran)
+        }
+
+        val imgbasah = view.findViewById<ImageView>(R.id.navigation_kuebasah)
+        imgbasah.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_search_to_navigation_kuebasah)
+        }
+
+        val imgkukus = view.findViewById<ImageView>(R.id.navigation_kuekukus)
+        imgkukus.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_search_to_navigation_kuekukus)
+        }
+
+        val imgmodern = view.findViewById<ImageView>(R.id.navigation_kuemodern)
+        imgmodern.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_search_to_navigation_kuemodern)
+        }
+
+        val imgtradisional = view.findViewById<ImageView>(R.id.navigation_kuetradisional)
+        imgtradisional.setOnClickListener {
+            findNavController().navigate(R.id.action_navigation_search_to_navigation_kuetradisional)
         }
     }
 

@@ -174,12 +174,15 @@
                     android:padding="8dp">
 
                     <ImageView
+                        android:id="@+id/navigation_kuemodern"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/kue_modern"
                         android:scaleType="centerCrop"
                         android:background="@drawable/circular_image_background"
-                        android:contentDescription="Kue Modern" />
+                        android:contentDescription="Kue Modern"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -201,12 +204,15 @@
                     android:padding="8dp">
 
                     <ImageView
+                        android:id="@+id/navigation_kuebasah"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/kue_basah"
                         android:scaleType="centerCrop"
                         android:background="@drawable/circular_image_background"
-                        android:contentDescription="Kue Basah" />
+                        android:contentDescription="Kue Basah"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -228,12 +234,15 @@
                     android:padding="8dp">
 
                     <ImageView
+                        android:id="@+id/navigation_kuetradisional"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/kue_tradisional"
                         android:scaleType="centerCrop"
                         android:background="@drawable/circular_image_background"
-                        android:contentDescription="Kue Tradisional" />
+                        android:contentDescription="Kue Tradisional"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -255,12 +264,15 @@
                     android:padding="8dp">
 
                     <ImageView
+                        android:id="@+id/navigation_kuekukus"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/kue_kukus"
                         android:scaleType="centerCrop"
                         android:background="@drawable/circular_image_background"
-                        android:contentDescription="Kue Kukus" />
+                        android:contentDescription="Kue Kukus"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -282,12 +294,15 @@
                     android:padding="8dp">
 
                     <ImageView
+                        android:id="@+id/navigation_kuelebaran"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/kue_lebaran"
                         android:scaleType="centerCrop"
                         android:background="@drawable/circular_image_background"
-                        android:contentDescription="Kue Lebaran" />
+                        android:contentDescription="Kue Lebaran"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                     <TextView
                         android:layout_width="wrap_content"

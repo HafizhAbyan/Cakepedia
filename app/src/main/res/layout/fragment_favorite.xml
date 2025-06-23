@@ -240,6 +240,8 @@
             android:src="@drawable/ic_add"
             android:tint="#D63384"
             android:layout_width="32dp"
-            android:layout_height="32dp" />
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:focusable="true"/>
     </RelativeLayout>
 </ScrollView>
